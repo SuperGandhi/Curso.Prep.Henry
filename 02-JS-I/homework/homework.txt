@@ -1,0 +1,16 @@
+
+* Variables
+Un espacio donde puedo alojar un valor
+
+* Strings
+Conjunto de palabras
+
+* Funciones (argumentos, `return`)
+Bloque de instrucciones lógicas
+
+* Declaraciones `if`
+Condicionar algo para que suceda
+
+* Valores booleanos (`true`, `false`)
+Si algo es falso o verdadero 
+
