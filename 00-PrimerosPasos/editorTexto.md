@@ -11,7 +11,7 @@ A continuación van a ver una lista de algunos editores de textos populares:
 
 Es un editor de texto liviano, que cuenta con una serie de plugins para adaptarlo a las necesidades de cada desarrollador.
 
-Es multiplataformaaaaa, por lo que se puede instalar tanto en Windows, como Linux y OS X.
+Es multiplataforma, por lo que se puede instalar tanto en Windows, como Linux y OS X.
 
 Para instalarlo, realizaremos los siguientes pasos:
 
