@@ -1,0 +1,7 @@
+* `for`
+Recorre todo lo que le indiquemos
+
+
+* `&&`, `||`, `!`
+
+y , o , no o contrario
