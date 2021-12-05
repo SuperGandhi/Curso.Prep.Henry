@@ -14,11 +14,11 @@ function obtenerMayor(x, y) {
   }
 }
 
-function mayoriaDeEdad(age) {
+function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-  if (age >= 18) {
+  if (edad >= 18) {
     return "Allowed";
   } else {
     return "Not allowed";
@@ -42,23 +42,23 @@ function conection(status) {
   }
 }
 
-function saludo(language) {
+function saludo(lenguaje) {
   // Devuelve un saludo en tres diferentes lenguajes:
   // Si "idioma" es "aleman", devuelve "Guten Tag!"
   // Si "idioma" es "mandarin", devuelve "Ni Hao!"
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (language === "aleman") {
+  if (lenguaje === "aleman") {
     return "Guten Tag!";
   }
-  if (language === "mandarin") {
+  if (lenguaje === "mandarin") {
     return "Ni Hao!";
   }
-  if (language === "ingles") {
+  if (lenguaje === "ingles") {
     return "Hello!";
   }
-  if (language === undefined) {
+  if (lenguaje === undefined) {
     return "Hola!";
   }
 }
@@ -107,7 +107,7 @@ function estaEnRango(numero) {
   }
 }
 
-function esEntero(number) {
+function esEntero(numero) {
   // Devuelve "true" si "numero" es un entero (int/integer)
   // Ejemplo: 0.8 -> false
   // Ejemplo: 1 -> true
@@ -115,8 +115,8 @@ function esEntero(number) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  for (let i = 0; i < number.length; i++) {
-    if (Math.floor(number[i]) === number[i]) {
+  for (let i = 0; i < numero.length; i++) {
+    if (Math.floor(numero[i]) === numero[i]) {
       return true;
     } else {
       return false;
@@ -124,20 +124,20 @@ function esEntero(number) {
   }
 }
 
-function fizzBuzz(number) {
+function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  for (let i = 0; i < number.length; i++) {
-    if (number[i] % 3 === 0 && number[i] % 5 === 0) {
+  for (let i = 0; i < numero.length; i++) {
+    if (numero[i] % 3 === 0 && numero[i] % 5 === 0) {
       return "fizzbuzz";
-    } else if (number[i] % 3 === 0) {
+    } else if (numero[i] % 3 === 0) {
       return "fizz";
-    } else if (number[i] % 5 === 0) {
+    } else if (numero[i] % 5 === 0) {
       return "buzz";
     } else {
-      return number[i];
+      return numero[i];
     }
   }
 
@@ -179,11 +179,11 @@ function esPrimo(numero) {
   return true;
 }
 
-function esVerdadero(value){
+function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero”
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  if (value === true) {
+  if (valor === true) {
     return "Soy verdadero";
   } else {
     return "Soy falso";
@@ -199,24 +199,24 @@ function tablaDelSeis(){
   }
 }
 
-function tieneTresDigitos(number){
+function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  for (let i = 0; i < number.length; i++) {
-    if (number[i] > 9) {
+  for (let i = 0; i < numero.length; i++) {
+    if (numero[i] > 9) {
       return true;
     }
   }
 }
 
-function doWhile(number) {
+function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  while (number < 8) {
-    number += 5;
+  while (numero < 8) {
+    numero += 5;
   }
-  return number;
+  return numero;
 }
 
 
