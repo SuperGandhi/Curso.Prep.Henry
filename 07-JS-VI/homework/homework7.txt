@@ -1,0 +1,2 @@
+*Callback
+Una llamada tras otra llamada, para cumplir un rol especifico.
