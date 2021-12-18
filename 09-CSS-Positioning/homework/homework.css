@@ -6,24 +6,52 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 1: Centrar el texto en un span */
 
 /* Arrancaremos este ejercicio por vos: */
-#ejercicioUno {
-
+ .span-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
-
-/* Acá va tu código */
-
+.header-position {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
 
 
 /* Ejercicio 3: */
 
-/* Acá va tu código */
-
+.ejercicio3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color: #f00;
+}
 
 
 /* Ejercicio 4: */
+.ejercicio4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color: #f00;
+}
+
 
 /* Acá va tu código */
 
@@ -31,8 +59,33 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Ejercicio 5: */
 
+.ejercicio5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color: #f00;
+}
+
+
 /* Acá va tu código */
 
 
 
+
+
 /* Ejercicio 6. */
+ .ejercicio 6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color: #f00;
