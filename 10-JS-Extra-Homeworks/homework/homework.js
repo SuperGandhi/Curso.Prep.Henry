@@ -3,21 +3,30 @@
 function deObjetoAmatriz(objeto){
   // Escribe una función que convierta un objeto en una matriz, donde cada elemento representa 
   // un par clave-valor en forma de matriz.
-  //Ejemplo: 
+  //Ejemplo:
   /*objeto({
       D: 1,
       B: 2,
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+
 }
 
 
 function numberOfCharacters(string) {
-  //La función recibe un string. Recorre el srting y devuelve el caracter con el número de veces que aparece 
+  //La función recibe un string. Recorre el string y devuelve el caracter con el número de veces que aparece.
   //en formato par clave-valor.
-  //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
+  //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 }
   //Escribe tu código aquí
+  const strArray = string.split('');
+  for (let i = 0; i < strArray.length; i++) {
+    let wordActual = strArray[i];
+    let wordInverd = wordActual.split('').reverse().join('');
+    strArray[i] = wordInverd;
+  }
+  return strArray.join;
+
 }
 
 
@@ -26,7 +35,18 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  let newString = '';
+  let newString2 = '';
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === s[i].toUpperCase()) {
+      newString += s[i];
+    } else {
+      newString2 += s[i];
+    }
+  }
+  return newString + newString2;
 }
+
 
 
 function asAmirror(str) {
@@ -65,7 +85,7 @@ function buscoInterseccion(arreglo1, arreglo2){
   //retornar un nuevo array con la intersección de ambos elementos. (Ej: [4,2,3] unión [1,3,4] = [3,4].
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
-  //Escribe tu código aquí  
+  //Escribe tu código aquí
 }
 
 
